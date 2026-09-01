@@ -27,10 +27,12 @@ DSA USED
 - Merge Sort: patient sorting by name
 - HashSet: avoid duplicate patient display for doctor
 
-#COMPILE FROM PROJECT ROOT
+## COMPILATION 
+#Compile from project root
 javac -d out src\model\*.java src\dsa\*.java src\service\*.java src\Main.java
 
 #RUN
+
 java -cp out Main
 
 SAMPLE ACCOUNTS
