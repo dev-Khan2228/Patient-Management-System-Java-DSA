@@ -37,11 +37,17 @@ javac -d out src\model\*.java src\dsa\*.java src\service\*.java src\Main.java
 
 java -cp out Main
 
-SAMPLE ACCOUNTS
+## SAMPLE ACCOUNTS
+
+
 Patient: sudheer / sudheer123
+
 Patient: anjali / anjali123
+
 Doctor: arjun / arjun123
+
 Doctor: priya / priya123
+
 Admin: admin / admin123
 
 IMPORTANT
