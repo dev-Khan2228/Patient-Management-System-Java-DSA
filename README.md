@@ -43,25 +43,56 @@ Admin: admin / admin123
 IMPORTANT
 Data is stored in Java memory, so it resets when the program closes.
 
-PROGRAM FLOW
 
 
-V
-START
-  |
-  v
-Main Menu
-  |
-  +-------------------------------+
-  |                |              |
-Patient          Doctor          Admin
-Login            Login           Login
-  |                |              |
-Patient          Doctor          Admin
-Menu             Menu            Menu
-  |                |              |
-  +----------------+--------------+
-                   |
+
+## PROGRAM FLOW
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Main Menu]
+
+    B --> C[Patient Login]
+    B --> D[Doctor Login]
+    B --> E[Admin Login]
+    B --> F([EXIT])
+
+    C --> G{Valid Credentials?}
+    G -->|Yes| H[Patient Dashboard]
+    G -->|No| C
+
+    H --> I[View Profile]
+    H --> J[Search Doctors]
+    H --> K[Book Appointment]
+    H --> L[View Appointments]
+    H --> M[Medical History]
+    H --> N[Logout]
+
+    D --> O{Valid Credentials?}
+    O -->|Yes| P[Doctor Dashboard]
+    O -->|No| D
+
+    P --> Q[View Profile]
+    P --> R[View Patients]
+    P --> S[View Appointments]
+    P --> T[Manage Medical Records]
+    P --> U[Logout]
+
+    E --> V{Valid Credentials?}
+    V -->|Yes| W[Admin Dashboard]
+    V -->|No| E
+
+    W --> X[Manage Patients]
+    W --> Y[Manage Doctors]
+    W --> Z[Manage Appointments]
+    W --> AA[Manage Medical Records]
+    W --> AB[View Recent Actions]
+    W --> AC[Logout]
+
+    N --> B
+    U --> B
+    AC --> B
+```
                   EXIT
 
 
