@@ -62,15 +62,20 @@ The application will start in the console.
 ## SAMPLE ACCOUNTS
 
 
-Patient: sudheer / sudheer123
+Patient: sudheer 
+password: sudheer123
 
-Patient: anjali / anjali123
+Patient: anjali 
+password: anjali123
 
-Doctor: arjun / arjun123
+Doctor: arjun 
+password: arjun123
 
-Doctor: priya / priya123
+Doctor: priya 
+password: priya123
 
-Admin: admin / admin123
+Admin: admin 
+password: admin123
 
 IMPORTANT
 Data is stored in Java memory, so it resets when the program closes.
