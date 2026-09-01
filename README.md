@@ -27,15 +27,37 @@ DSA USED
 - Merge Sort: patient sorting by name
 - HashSet: avoid duplicate patient display for doctor
 
-## COMPILATION 
-#Compile from project root
+# ▶️ HOW TO COMPILE
 
+Open Command Prompt in the **project root folder**.
 
-javac -d out src\model\*.java src\dsa\*.java src\service\*.java src\Main.java
+The project root is the folder containing:
 
-#RUN
+```text
+README.md
+.gitignore
+src/
+```
 
+First, create a list of all Java source files:
+
+```cmd
+dir /s /b src\*.java > sources.txt
+```
+
+Then compile all Java files:
+
+```cmd
+javac -d out @sources.txt
+```
+
+If compilation is successful, run the program:
+
+```cmd
 java -cp out Main
+```
+
+The application will start in the console.
 
 ## SAMPLE ACCOUNTS
 
