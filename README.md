@@ -55,7 +55,7 @@ Data is stored in Java memory, so it resets when the program closes.
 
 
 ## Project Development Process
-Step 1
+#Step 1
 
 Requirement analysis was performed.
 
@@ -64,11 +64,12 @@ The main roles were identified as:
 Patient
 Doctor
 Administrator
-Step 2
+
+#Step 2
 
 The system architecture and modules were designed.
 
-Step 3
+#Step 3
 
 Java classes were created for:
 
@@ -76,19 +77,20 @@ Patient
 Doctor
 Appointment
 Medical Record
-Step 4
+
+#Step 4
 
 DSA structures were integrated to efficiently manage the information.
 
-Step 5
+#Step 5
 
 Separate authentication systems were created for patients, doctors and administrators.
 
-Step 6
+#Step 6
 
 Patient and doctor registration functionality was implemented.
 
-Step 7
+#Step 7
 
 Administrator CRUD operations were implemented.
 
@@ -98,7 +100,8 @@ Create
 Read
 Update
 Delete
-Step 8
+
+#Step 8
 
 Appointment and medical record management were implemented.
 
