@@ -53,7 +53,11 @@ Admin: admin / admin123
 IMPORTANT
 Data is stored in Java memory, so it resets when the program closes.
 
+## Conclusion
 
+The Patient Management System demonstrates the practical implementation of Java and Data Structures & Algorithms in a real-world healthcare management scenario.
+
+The system manages multiple users, patient information, doctor information, appointments and medical records while demonstrating important DSA concepts such as ArrayList, LinkedList, HashMap, Queue, PriorityQueue, Stack, HashSet and Merge Sort.
 
 
 ## PROGRAM FLOW
