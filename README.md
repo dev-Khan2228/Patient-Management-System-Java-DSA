@@ -29,6 +29,8 @@ DSA USED
 
 ## COMPILATION 
 #Compile from project root
+
+
 javac -d out src\model\*.java src\dsa\*.java src\service\*.java src\Main.java
 
 #RUN
