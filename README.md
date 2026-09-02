@@ -27,6 +27,37 @@ DSA USED
 - Merge Sort: patient sorting by name
 - HashSet: avoid duplicate patient display for doctor
 
+  # 🏗️ PROJECT STRUCTURE
+
+```text
+PatientManagementSystem_Java_DSA_V4
+│
+├── .gitignore
+├── README.md
+│
+└── src
+    │
+    ├── Main.java
+    │
+    ├── model
+    │   ├── Patient.java
+    │   ├── Doctor.java
+    │   ├── Appointment.java
+    │   └── MedicalRecord.java
+    │
+    ├── dsa
+    │   └── DataStore.java
+    │
+    └── service
+        ├── AuthService.java
+        ├── PatientService.java
+        ├── DoctorService.java
+        ├── AppointmentService.java
+        └── RecordService.java
+```
+
+---
+
 # ▶️ HOW TO COMPILE
 
 Open Command Prompt in the **project root folder**.
